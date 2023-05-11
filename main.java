@@ -38,7 +38,7 @@ class Main {
                 System.out.println("Invalid move. Try again!");
             }
         }
-        printBoard(board);
+         printBoard(board);
     }
 
     public static boolean haveWon(char[][] board, char player) {
